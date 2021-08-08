@@ -21,8 +21,10 @@ LIST = {}
 
 @app.on_message(filters.command(['start']))
 async def start(client, message):
- await message.reply_text(text =f"""Hello {message.from_user.first_name }image to pdf bot 
-Please sent a image first
+ await message.reply_text(text =f"""Hello {message.from_user.first_name } I am image to pdf convert bot😊
+
+• Please sent a image first🙄
+
 I can convert image to pdf
 This bot created by @ShizuUpdates""",reply_to_message_id = message.message_id ,  reply_markup=InlineKeyboardMarkup(
             [
